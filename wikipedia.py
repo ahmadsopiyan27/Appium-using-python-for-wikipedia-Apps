@@ -22,3 +22,6 @@ driver.find_element(AppiumBy.ID, 'org.wikipedia:id/search_container').click()
 driver.find_element(AppiumBy.ID, 'org.wikipedia:id/search_src_text').send_keys('Automation')
 
 # lanjut buat testcase nya
+
+
+#  assertionnnya
