@@ -14,7 +14,8 @@ options.no_reset = True
 
 driver = webdriver.Remote('http://127.0.0.1:4723',options=options)
 
-#klik search buka wikipedia
+# menu klik search buka wikipedia
+
 driver.find_element(AppiumBy.ID, 'org.wikipedia:id/search_container').click()
 
 #search automation
