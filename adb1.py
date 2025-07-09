@@ -6,3 +6,6 @@ os.system('adb install "C:/Users/LENOVO/DemoApp.apk"')
 sleep(3)
 
 # adb pake sleep
+
+
+#  lanjut kestep selanjutnya
