@@ -34,7 +34,7 @@ driver.find_element(AppiumBy.ID, 'com.whatsapp:id/entry').send_keys('love you 1 
 driver.find_element(AppiumBy.ID, 'com.whatsapp:id/send').click()
 driver.find_element(AppiumBy.ID, 'com.whatsapp:id/whatsapp_toolbar_home').click()
 
-# os.system('adb shell input tap 885 2336')
+os.system('adb shell input tap 885 2336')
 driver.quit()
 # sleep(2)
 # os.system('adb shell input keyevent 3')
